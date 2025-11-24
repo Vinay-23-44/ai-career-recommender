@@ -42,3 +42,33 @@ N3. *When deadlines or exams are near, I find it hard to stay calm.*
 N4 (R). *I stay emotionally steady even during difficult situations or pressure.*  
 N5. *My mood gets affected easily by what others say or think about me.*
 
+How to Score (for later backend logic)
+
+Add this to the doc so future you knows how to implement:
+
+## Scoring Logic (For Backend)
+
+Each response is on a scale of 1–5.
+
+For NON-reverse questions:
+- Use score as is (1 to 5).
+
+For REVERSE-scored questions (marked with R):
+- Convert using: `score_reversed = 6 - original_score`
+  - So:
+    - 1 → 5
+    - 2 → 4
+    - 3 → 3
+    - 4 → 2
+    - 5 → 1
+
+Trait score calculation:
+- For each trait (O, C, E, A, N):
+  - Take the average of all its (processed) question scores.
+  - Example:
+    - Openness = (O1 + O2 + O3 + O4 + O5_processed) / 5
+
+Normalization (optional for ML):
+- Keep traits as 1–5
+  OR
+- Normalize to 0–1 range using: `(avg_score - 1) / 4`
