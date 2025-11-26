@@ -1,0 +1,50 @@
+[
+  {
+    "career": "Software Developer",
+    "required_skills": ["python", "problem_solving", "sql"],
+    "important_interests": ["coding"],
+    "ideal_personality": ["openness", "conscientiousness"]
+  },
+  {
+    "career": "Data Analyst",
+    "required_skills": ["python", "sql", "statistics"],
+    "important_interests": ["coding", "research"],
+    "ideal_personality": ["conscientiousness", "detail_oriented"]
+  },
+  {
+    "career": "UI/UX Designer",
+    "required_skills": ["design_tools", "creativity"],
+    "important_interests": ["design"],
+    "ideal_personality": ["openness", "empathy"]
+  },
+  {
+    "career": "Product Manager",
+    "required_skills": ["communication", "leadership"],
+    "important_interests": ["business", "public_speaking"],
+    "ideal_personality": ["extraversion", "conscientiousness"]
+  },
+  {
+    "career": "Marketing Specialist",
+    "required_skills": ["communication", "creativity"],
+    "important_interests": ["business", "public_speaking"],
+    "ideal_personality": ["extraversion", "agreeableness"]
+  },
+  {
+    "career": "Research Analyst",
+    "required_skills": ["statistics", "research_skills"],
+    "important_interests": ["research"],
+    "ideal_personality": ["openness", "analytical"]
+  },
+  {
+    "career": "Content Writer",
+    "required_skills": ["writing", "creativity"],
+    "important_interests": ["writing"],
+    "ideal_personality": ["openness"]
+  },
+  {
+    "career": "Government / Administrative",
+    "required_skills": ["communication", "analysis"],
+    "important_interests": ["business", "public_speaking"],
+    "ideal_personality": ["conscientiousness", "stability"]
+  }
+]
